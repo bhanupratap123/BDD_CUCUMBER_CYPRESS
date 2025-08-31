@@ -1,0 +1,30 @@
+{
+  "name": "cucumber_pom",
+  "version": "1.0.0",
+  "description": "Cypress Framework with Cucumber and Page Object Model",
+  "main": "cypress.config.js",
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  },
+  "scripts": {
+    "cy:open": "cypress open",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Cypress",
+    "Cucumber",
+    "POM"
+  ],
+  "author": "Bhanu",
+  "license": "ISC",
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^20.1.2",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.5",
+    "cypress": "^12.0.0",
+    "cypress-xpath": "^2.0.1",
+    "esbuild": "^0.25.9"
+  },
+  "dependencies": {
+    "18": "^0.0.0"
+  }
+}
