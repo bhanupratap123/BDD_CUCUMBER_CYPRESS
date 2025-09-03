@@ -8,7 +8,7 @@
   },
   "scripts": {
     "cy:open": "cypress open",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "cy:headless": "cypress run --headless --spec cypress/e2e/cucumber-bdd-test/dashboard.feature"
   },
   "keywords": [
     "Cypress",
@@ -21,6 +21,7 @@
     "@badeball/cypress-cucumber-preprocessor": "^20.1.2",
     "@bahmutov/cypress-esbuild-preprocessor": "^2.2.5",
     "cypress": "^12.0.0",
+    "cypress-mochawesome-reporter": "^4.0.2",
     "cypress-xpath": "^2.0.1",
     "esbuild": "^0.25.9"
   },
